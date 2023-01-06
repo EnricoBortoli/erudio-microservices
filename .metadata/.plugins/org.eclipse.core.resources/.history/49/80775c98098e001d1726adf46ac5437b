@@ -1,0 +1,14 @@
+package br.com.erudio.exception.handler;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.RestController;
+
+@ControllerAdvice
+@RestController
+public class CustomizedResponseEntityExceptionHandler {
+	
+	public final ResponseEntity<ExceptonResponse> ahndleAllException(Exceprion ex, WebRequest request){
+		
+	}
+}
